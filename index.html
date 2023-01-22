@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Digi-Notes</title>
+
+</head>
+<body>
+
+ <!--- NAvbar--->
+ <section class="header">
+    <nav>
+        <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+        <div class="nav-links" id="nav-links">
+            <i class="fa fa-times" onclick="hidemenu()" ></i>
+           
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#servvices">About</a></li>
+                <li><a href="#about">Contact</a></li>
+                <li><a href="#admin">Admin</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+    </nav>
+
+ </section>
+
+ <section class="top-sec">
+    <div class="h1">
+        
+        <h1>
+            Welcome to Digi-Notes 
+            
+        </h1>
+        <p> Taking Notes Easy</p>
+
+    </div>
+ </section>
+ <section class="branch">
+    <h3>
+        Select your Branch
+    </h3>
+    <div class="branch-row">
+        <div class="branch-col">
+            <img src="img/cs.gif" alt="">
+            <h5>Computer Science Engineering</h5>
+            <a href="#" class="visit-btn">Click here...</a>
+        </div>
+
+        <div class="branch-col">
+            <img src="img/ai.gif" alt="">
+            <h5>CSE (Ai and Ml)</h5>
+            <a href="#" class="visit-btn">Click here...</a>
+        </div>
+
+        <div class="branch-col">
+            <img src="img/it.gif" alt="">
+            <h5>Information Technology (IT)</h5>
+            <a href="#" class="visit-btn">Click here...</a>
+        </div>
+    </div>
+
+    <div class="branch-row">
+        <div class="branch-col">
+            <img src="img/ec (2).gif" alt="">
+            <h5> Electronics & Communication (EC)</h5>
+            <a href="#" class="visit-btn">Click here...</a>
+        </div>
+
+        <div class="branch-col">
+            <img src="img/ec.gif" alt="">
+            <h5>Electrical & Electronics Engineering (EN)</h5>
+            <a href="#" class="visit-btn">Click here...</a>
+        </div>
+
+        <div class="branch-col">
+            <img src="img/me.gif" alt="">
+            <h5>Mechanical Engi
+                neering (ME)</h5>
+            <a href="#" class="visit-btn">Click here...</a>
+        </div>
+    </div>
+
+
+    <div class="branch-row">
+        <div class="branch-col">
+            <img src="img/ce.gif" alt="">
+            <h5> Civil Engineering (CE)</h5>
+            <a href="#" class="visit-btn">Click here...</a>
+        </div>
+
+        <div class="branch-col">
+            <img src="img/ag.gif" alt="">
+            <h5>Agriculture Engineering (AG)</h5>
+            <a href="#" class="visit-btn">Click here...</a>
+        </div>
+
+        <div class="branch-col">
+            <img src="img/bt.gif" alt="">
+            <h5> Bio-Technology (BT)</h5>
+            <a href="#" class="visit-btn">Click here...</a>
+        </div>
+    </div>
+
+    
+
+
+    
+
+ </section>
+
+
+
+    <!--------------- footer ---------------->
+
+    <section class="footer">
+        <h4>Get in Touch</h4>
+        <p>@Mohammad Danish Ansari<br>
+        e-mail:- ansaaridanish04.dz@gmail.com </p>
+        Digi-Notes©2023 | All Rights Reserved
+        <h6>Stay Connected With</h6>
+        <a href="https://www.instagram.com/sanskari_111/"><img src="img/instagram.png" alt="instagram"></a>
+        <a href="https://www.facebook.com/profile.php?id=100007850116897"><img src="img/facebook.webp" alt="instagram"></a>
+        <a href="https://www.linkedin.com/in/mohammad-danish-420a29151/"><img src="img/linkedin.png" alt="instagram"></a>
+        
+
+
+
+    </section>
+
+    
+ 
+    
+</body>
+
+<!----Script-->
+
+<script>
+    var navLinks=document.getElementById("nav-links");
+    var navbar=document.getElementById("navbar");
+    function showmenu(){
+        navLinks.style.right="0";
+    }
+    function hidemenu(){
+        navLinks.style.right="-200px";
+    }
+
+
+ 
+
+</script>
+</html>
